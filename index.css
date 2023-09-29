@@ -39,4 +39,18 @@ body {
 }
 .container{
     padding: 40px;
+    flex-wrap: wrap;
+}
+.container .h1{
+    font-size: 60px;
+    color: grey
+}
+.video-cont{
+    display:flex;
+    gap:10px;
+}
+.video-cont video{
+    width:40%;
+    height:40%;
+    border-radius:10px;
 }
