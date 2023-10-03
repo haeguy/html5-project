@@ -28,9 +28,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     margin-left: 3rem;
 }
+
 #navbar a{
     color: #000;
     text-decoration: none;
