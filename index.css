@@ -1,56 +1,19 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex; 
 }
-body {
-        background-image: url('./images/car-5.jpg');
-    }
-.header-right {
-    float: right;
+.left{
+    height: 100%;
+    background-color:blue;
+    width: 50%;
 }
-.header{
-    padding: 20px 10px;
-}
-.header a, button{
-    color: black;
-    text-align: center;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
+.right{
+    height: 100%;
+    background-color:red;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
-    font-family: arial;
-    border-radius: 8px;
-    cursor: pointer;
-}
-.header a:hover{
-    background-color:rgb(108, 82, 26);
-    color: white;
-    padding: 10px; 
-}
-.header .header-right{
-    float: right;
-}
-.header .button-header{
-    background-color: transparent;
-    box-shadow: 2px 2px 1px 0px rgb(154, 154, 154);
-    border-color:rgb(184, 182, 173);
-}
-.container{
-    padding: 40px;
-    flex-wrap: wrap;
-}
-.container .h1{
-    font-size: 60px;
-    color: grey
-}
-.video-cont{
-    display:flex;
-    gap:10px;
-}
-.video-cont video{
-    width:40%;
-    height:40%;
-    border-radius:10px;
 }
